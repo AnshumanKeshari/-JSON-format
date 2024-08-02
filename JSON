@@ -1,0 +1,36 @@
+Prompt: "Please take the following resume text and parse its content into JSON format with the following structure:
+- name: [Full Name]
+- contact: [Phone, Email, Address]
+- education: [
+  {
+    institution: [University Name],
+    degree: [Degree],
+    field_of_study: [Field of Study],
+    start_date: [Start Date],
+    end_date: [End Date]
+  },
+  ...
+]
+- work_experience: [
+  {
+    company: [Company Name],
+    position: [Job Title],
+    start_date: [Start Date],
+    end_date: [End Date],
+    responsibilities: [Key Responsibilities]
+  },
+  ...
+]
+- skills: [Skill1, Skill2, ...]
+- certifications: [
+  {
+    name: [Certification Name],
+    issuing_organization: [Issuing Organization],
+    issue_date: [Issue Date],
+    expiration_date: [Expiration Date]
+  },
+  ...
+]
+
+Here is the resume text:
+<Insert Resume Text Here>"
