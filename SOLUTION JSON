@@ -1,0 +1,38 @@
+{
+  "name": "Jane Doe",
+  "contact": {
+    "phone": "123-456-7890",
+    "email": "jane.doe@example.com",
+    "address": "123 Main St, Anytown, AN 12345"
+  },
+  "education": [
+    {
+      "institution": "Example University",
+      "degree": "Bachelor of Science",
+      "field_of_study": "Computer Science",
+      "start_date": "2015-09-01",
+      "end_date": "2019-06-01"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "Tech Company",
+      "position": "Software Engineer",
+      "start_date": "2019-07-01",
+      "end_date": "2023-08-01",
+      "responsibilities": [
+        "Developed web applications using JavaScript",
+        "Collaborated with the design team to improve user experience"
+      ]
+    }
+  ],
+  "skills": ["JavaScript", "Python", "SQL"],
+  "certifications": [
+    {
+      "name": "Certified Python Developer",
+      "issuing_organization": "Python Institute",
+      "issue_date": "2020-05-01",
+      "expiration_date": "2023-05-01"
+    }
+  ]
+}
